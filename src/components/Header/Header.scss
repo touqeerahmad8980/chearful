@@ -1,0 +1,43 @@
+.Header_part{
+    nav{
+        padding: 16px 0;
+        .brand_logo{
+            margin-right: 68px;
+        }
+        .link_item{
+            font-size: 16px;
+            color: #142D33;
+            text-decoration: none;
+            margin-right: 38px;
+        }
+        .action_button{
+            height: 48px;
+            min-width: 107px;
+            font-size: 16px;
+            font-weight: 700;
+            border-radius: 68px;
+            margin-left: 12px;
+            &.custom_outlined{
+                border: 1px solid rgba(80, 121, 226, 0.5);
+                &:hover{
+                    background-color: #5079E2;
+                    color: #fff;
+                }
+            }
+        }
+        .language_btn{
+            min-width: 72px;
+            height: 40px;
+            font-size: 12px;
+            font-weight: 500;
+            border-radius: 49px;
+            margin-right: 12px;
+            font-weight: normal;
+            border: 1px solid rgba(80, 121, 226, 0.5);
+            &:hover{
+                background-color: #5079E2;
+                color: #fff;
+            }
+        }
+    }
+}
