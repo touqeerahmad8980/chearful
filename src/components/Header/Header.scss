@@ -39,5 +39,37 @@
                 color: #fff;
             }
         }
+        .navbar-toggler{
+            border: none;
+            box-shadow: none;
+        }
+    }
+
+    @media all and (max-width:991px) {
+        .navbar-collapse{
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #e6e2e2;
+            &.collapse.show{
+                margin-top: 20px;
+                padding-top: 20px;
+                border-top: 1px solid #eceaea;
+                box-shadow: #f5f0f0 0px 10px 16px -5px;
+                padding-bottom: 20px;
+            }
+        }
+        .link_item{
+            margin-bottom: 20px;
+        }
+        .action_btn_wrap{
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        nav .action_button{
+            min-width: 80px;
+            font-size: 13px;
+            margin-left: 8px;
+        }
     }
 }

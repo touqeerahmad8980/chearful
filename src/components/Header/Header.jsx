@@ -12,14 +12,14 @@ const Header = () => {
                         <img className='brand_logo' src="assets/images/brand-logo.svg" alt="Chearful" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse className='d-flex align-items-center' id="responsive-navbar-nav">
+                    <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
                             <Link className='link_item' to="/">Explore</Link>
                             <Link className='link_item' to="/">About</Link>
                             <Link className='link_item' to="/">Contact us</Link>
                             <Link className='link_item' to="/">Placeholder</Link>
                         </Nav>
-                        <Nav className='d-flex align-items-center'>
+                        <Nav className='d-flex align-items-center action_btn_wrap'>
                             <Button className='language_btn' variant='outline-dark'>
                                 <img className='me-1' src='assets/images/flag.png' alt='UAE Flag' /> <img src='assets/images/arrow_down.svg' alt='arrow down' />
                             </Button>
